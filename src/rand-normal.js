@@ -1,7 +1,6 @@
 export function box_muller() {
     let u0 = Math.random()
     let u1 = Math.random()
-    // let part0 = (-2.0 * u0.ln()).sqrt()
     let part0 = Math.sqrt(-2.0 * Math.log(u0))
     let part1 = 2.0 * Math.PI * u1
     let z0 = part0 * Math.cos(part1)
