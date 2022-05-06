@@ -1,0 +1,31 @@
+{
+  "name": "cmaes-js",
+  "version": "0.0.1",
+  "description": "CMA-ES algorithm ported to JavaScript",
+  "main": "src/cmaes.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taslater/cmaes-js.git"
+  },
+  "keywords": [
+    "CMA-ES",
+    "blackbox",
+    "optimizer",
+    "evolution",
+    "evolutionary",
+    "cmaes"
+  ],
+  "author": "Tom Slater",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taslater/cmaes-js/issues"
+  },
+  "homepage": "https://github.com/taslater/cmaes-js#readme",
+  "devDependencies": {
+    "fast-check": "^2.25.0",
+    "mocha": "^10.0.0"
+  }
+}
